@@ -1,0 +1,15 @@
+main: com.herokun.plugins.Main
+name: DestroyIt
+version: 1.0
+author: herokun
+description: Destroy some blocks to unlock inventories.
+api-version: 1.16
+commands:
+  destroy_it:
+    description: destroy it management command
+    usage: /destroy_it [ reset [ true ] | enabled [ true | false ] | action < query | unlock > ]
+    permission: destroy_it
+permissions:
+  destroy_it:
+    description: Allows usage of /destroy_it command
+    default: op
